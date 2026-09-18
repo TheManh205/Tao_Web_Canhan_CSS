@@ -1,0 +1,124 @@
+/* --- 1. ĐỊNH DẠNG CHUNG (GLOBAL STYLES) --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* --- 2. HEADER --- */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* --- 3. KHỐI NỘI DUNG (CARDS) --- */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+/* --- 4. AVATAR & INTRO --- */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #555555;
+}
+
+/* --- 5. DANH SÁCH SỜ THÍCH --- */
+.hobbies ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.hobbies li {
+    margin-bottom: 8px;
+}
+
+/* --- 6. FOOTER & BẢNG THÔNG TIN LIÊN HỆ --- */
+footer {
+    background-color: #e0e0e0;
+    padding: 30px 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+table {
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    width: 30%;
+}
+
+td a {
+    color: #1b5e20;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #666666;
+}
